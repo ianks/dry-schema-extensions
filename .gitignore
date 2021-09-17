@@ -1,0 +1,14 @@
+.DS_Store
+coverage
+/.bundle
+vendor/bundle
+bin/
+log/
+tmp/
+.idea/
+Gemfile.lock
+doc
+.vscode
+pkg/
+.byebug_history
+spec/examples.txt
