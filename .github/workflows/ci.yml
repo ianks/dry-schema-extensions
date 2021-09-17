@@ -3,16 +3,6 @@ name: CI
 
 on:
   push:
-    paths:
-      - ".github/workflows/ci.yml"
-      - "lib/**"
-      - "*.gemspec"
-      - "spec/**"
-      - "Rakefile"
-      - "Gemfile"
-      - "Gemfile.devtools"
-      - ".rubocop.yml"
-      - "project.yml"
   pull_request:
     branches:
       - master
