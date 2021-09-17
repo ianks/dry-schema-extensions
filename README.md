@@ -1,12 +1,12 @@
 # dry-schema-extensions 
 
-[![Gem Version](https://badge.fury.io/rb/dry-schema-extensions.svg)][gem]
-[![CI Status](https://github.com/ianks/dry-schema-extensions/workflows/CI/badge.svg)][actions]
+![Gem Version](https://badge.fury.io/rb/dry-schema-extensions.svg)
+![CI Status](https://github.com/ianks/dry-schema-extensions/workflows/CI/badge.svg)
 
 ## Extensions Provided
 
-* [Open API Extension](docsite/source/extensions/open_api.html.md)
-* [JSON Schema Extension](docsite/source/extensions/json_schema.html.md)
+* [Open API](docsite/source/extensions/open_api.html.md)
+* [JSON Schema](docsite/source/extensions/json_schema.html.md)
 
 ## Supported Ruby versions
 
