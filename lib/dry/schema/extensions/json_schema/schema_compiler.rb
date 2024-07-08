@@ -31,6 +31,7 @@ module Dry
           included_in?: {enum: ->(v, _) { v.to_a }},
           filled?: EMPTY_HASH,
           uri?: {format: "uri"},
+          format?: {format: ->(v, _) { v }},
           uuid_v1?: {
             pattern: "^[0-9A-F]{8}-[0-9A-F]{4}-1[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$"
           },
@@ -144,6 +145,10 @@ module Dry
           _name, rest = node
 
           visit_predicate(rest, opts)
+        end
+
+        def visit_namespace(node, opts = {})
+          visit(node[1], opts)
         end
 
         # @api private
